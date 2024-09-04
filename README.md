@@ -1,4 +1,4 @@
-# ReactJS API Explorer App
+# ReactJS App: API Explorer 
 
 A dynamic and interactive API explorer built with React.js that allows users to make requests to public APIs and view the responses in real-time. This project is designed to help developers and testers interact with APIs, visualize responses, and test endpoints efficiently.
 

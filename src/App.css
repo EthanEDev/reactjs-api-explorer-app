@@ -1,0 +1,62 @@
+body {
+  font-family: "Arial";
+  margin: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.head {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: whitesmoke;
+}
+.head > .title {
+  align-self: center;
+  margin-top: 0 !important;
+}
+.head > .menu {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.pages,
+.search,
+.perPage {
+  padding: 5px 0;
+}
+.head .pages a {
+  text-decoration: none;
+}
+.linkUnderline {
+  text-decoration: underline !important;
+}
+.head .search input {
+  margin-left: 5px;
+}
+.head .perPage select {
+  margin-left: 5px;
+}
+.grid {
+  display: flex;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  background-color: rgb(39, 43, 51);
+  flex-grow: 1;
+  padding: 0 10px;
+}
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: smaller;
+  color: rgb(158, 158, 158);
+  background-color: rgb(32, 35, 41);
+  text-align: center;
+  padding: 30px 20px;
+}
+.footer > a {
+  color: inherit;
+}

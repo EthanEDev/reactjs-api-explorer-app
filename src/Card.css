@@ -1,0 +1,24 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 10px 30px 10px;
+  color: whitesmoke;
+  background-color: rgb(60, 62, 68);
+  width: 200px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.card > .info {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.card > .info > .name {
+  font-size: large;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.card > .info > .spec {
+  font-size: small;
+  color: rgb(158, 158, 158);
+}

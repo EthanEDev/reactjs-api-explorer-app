@@ -15,7 +15,6 @@ You can try out the live demo of this project [here](https://reactjs-app-api-exp
 - **API Requests**: Send GET type of HTTP request using the `fetch` API.
 - **Card Component**: Displays character data in a user-friendly card format.
 - **Real-time Response Display**: View the API response in real-time, including status codes and response data.
-- **History Tracking**: Keep track of your previous requests and responses.
 - **Responsive Design**: Fully responsive and optimized for various screen sizes.
 
 ## Installation
